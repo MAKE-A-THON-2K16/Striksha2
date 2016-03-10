@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="striksha.android.com.striksha2.Activity2"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:text="Physical changes that occur during puberty in girls
+1. Development of breasts\n
+Between the ages of 8-13 years, girls start developing breasts. Morphologically (that is in terms of form and shape), breasts look like a cone with the base at the chest wall and the apex at the nipple. It is possible that one of the breasts grows faster than the other but by the time the breasts are fully developed the differences in their shape and size are reduced. For a majority of girls there is a small difference in shape and size of the two breasts which is permanent and is totally normal. The size of the breasts and the time when it starts to grow also varies on an individual basis.
+ "/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_below="@+id/textView3"
+            android:src="@drawable/a"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/imageView1"
+            android:text="2. Appearance of hair in the armpit\n
+During puberty, hair begins to grow in your arm pits.
+"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:src="@drawable/b"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

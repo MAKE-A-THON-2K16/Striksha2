@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="striksha.android.com.striksha2.Activity2"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:text="Aging organs\n
+How well organs function depends on how well the cells within them function. Older cells function less well. Also, in some organs, cells die and are not replaced, so the number of cells decreases. The number of cells in the testes, ovaries, liver, and kidneys decreases markedly as the body ages. When the number of cells becomes too low, an organ cannot function normally. Thus, most organs function less well as people age. However, not all organs lose a large number of cells. The brain is one example. Healthy older people do not lose many brain cells. Substantial losses occur mainly in people who have had a stroke or who have a disorder that causes the progressive loss of nerve cells (neurodegenerative disorders), such as Alzheimer disease or Parkinson disease.
+
+A decline in one organ’s function, whether due to a disorder or to aging itself, can affect the function of another. For example, if atherosclerosis narrows blood vessels to the kidneys, the kidneys function less well because blood flow to them is decreased."/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_below="@+id/textView3"
+            android:src="@drawable/a"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/imageView1"
+            android:text="Often, the first signs of aging involve the musculoskeletal system. The eyes, followed by the ears, begin to change early in mid-life. Most internal functions also decline with aging. Most bodily functions peak shortly before age 30 and then begin a gradual but continuous decline. However, even with this decline, most functions remain adequate because most organs start with considerably more functional capacity than the body needs (functional reserve). For example, if half the liver is destroyed, the remaining tissue is more than enough to maintain normal function. Thus, disorders, rather than normal aging, usually account for most of the loss of function in old age.
+
+Even though most functions remain adequate, the decline in function means that older people are less able to handle various stresses, including strenuous physical activity, extreme temperature changes in the environment, and disorders. This decline also means that older people are more likely to experience side effects from drugs. Some organs are more likely to malfunction under stress than others. These organs include the heart and blood vessels, the urinary organs (such as the kidneys), and the brain."
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:src="@drawable/b"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

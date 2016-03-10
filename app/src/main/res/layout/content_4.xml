@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="striksha.android.com.striksha2.Activity2"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:text="Pregnancy, also known as gravidity or gestation,
+ is the time during which one or more offspring develops inside a woman.
+ A multiple pregnancy involves more than one offspring, such as with twins.
+ Pregnancy can occur by sexual intercourse or assisted reproductive technology.
+ It usually lasts around 40 weeks from the last menstrual period (LMP) and ends in childbirth.
+ This is just over nine lunar months, where each month is about 29½ days.
+ When measured from conception it is about 38 weeks.
+ An embryo is the developing offspring during the first eight weeks following conception,
+ after which, the term fetus is used until birth.
+
+ Symptoms of early pregnancy may include missed periods, tender breasts,
+ nausea and vomiting, hunger, and frequent urination.
+ Pregnancy may be confirmed with a pregnancy test.
+Pregnancy is typically divided into three trimesters.
+        The first trimester is from week one through 12 and includes conception.
+        Conception is when the sperm fertilizes the egg.
+        The fertilized egg then travels down the fallopian tube and attaches to the inside of the uterus,
+        where it begins to form the fetus and placenta.
+        The first trimester carries the highest risk of miscarriage (natural death of embryo or fetus).
+"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_below="@+id/textView3"
+            android:src="@drawable/a"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/imageView1"
+            android:text="The second trimester is from week 13 through 28.
+        Around the middle of the second trimester, movement of the fetus may be felt.
+        At 28 weeks, more than 90% of babies can survive outside of the uterus if provided high-quality medical care.
+        The third trimester is from 29 weeks through 40 weeks.\n
+
+Prenatal care improves pregnancy outcomes.\n
+        Prenatal care may include taking extra folic acid, avoiding drugs and alcohol, regular exercise,
+        blood tests, and regular physical examinations.
+        Complications of pregnancy may include high blood pressure of pregnancy, gestational diabetes,
+        iron-deficiency anemia, and severe nausea and vomiting among others.
+        Term pregnancy is 37 to 41 weeks, with early term being 37 and 38 weeks, full term 39 and 40 weeks,
+        and late term 41 weeks. After 41 weeks, it is known as post term.
+        Babies born before 37 weeks are preterm and are at higher risk of health problems such as cerebral palsy.
+        Delivery before 39 weeks by labor induction or caesarean section is not recommended unless required for other medical reasons.
+"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:src="@drawable/b"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

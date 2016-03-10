@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="striksha.android.com.striksha2.Activity2"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="60dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="For a young infant (birth to 6 months)
+Breastfeeding is the only food or drink your baby will need for the first 6 months.
+Babies who are breastfed should get a vitamin D supplement of 10 micrograms (µg) or 400 international units (IU) each day. This will prevent vitamin D deficiency.
+If your baby is not breastfed, or is only partially breastfed, commercial infant formulas are an alternative to breast milk. Non-breastfed infants do not require a vitamin D supplement because the commercial infant formula contains vitamin D.
+
+
+For an older infant (6 to 12 months)
+•	Continue to breastfeed for up to two years or more, as long as both you and your child want to.\n
+•	Continue to give your breastfed infant a vitamin D supplement of 10 µg (400 IU).\n
+•	At 6 months, breastfeeding is still your baby’s main food source, but it is time to begin adding solid foods. Formula-fed infants should also be introduced to solid foods at this time.\n
+•	Start with foods that contain IRON and offer them a few times each day. Iron supports your baby’s growth and development. Iron-rich foods include meats such as lamb, game, poultry, and fish. Meat alternatives include eggs, tofu, and legumes such as beans and lentils. Iron-fortified infant cereal is also a common first food.\n
+•	Gradually increase the number of times a day that you offer solid foods.\n
+•	Offer your baby a range of nutritious foods from your family meals. Let them discover different textures and experiment with feeding themselves.\n
+•	Give your baby foods they can eat using their hands. Offer pieces of soft-cooked vegetables, soft fruit such as banana, grated cheese, bread crusts and toast.\n
+•	If you are making the transition to cow milk as your child’s main milk source, wait until your baby is between 9 and 12 months old. Start with homogenized cow milk (3.25% M.F.). Do not offer skim or partly skimmed milk (1% or 2% M.F.) before 2 years of age.\n
+•	If you are going to make fortified soy beverage your child’s main milk source, wait until they are 2 years of age. Rice or nut beverages should not be used as your child’s main milk source.\n
+•	Pay attention to your baby’s hunger cues. Trust your child to decide how much they are going to eat at any meal.\n
+"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_below="@+id/textView3"
+        android:src="@drawable/a"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView1"
+        android:text="Menus for older infants and young children
+These menus are only a guide. Offer your baby nutritious foods from your family meal and eat together as a family as often as you can. Let your baby decide how much they want to eat from the foods offered.
+What you can offer a 7-month old infant
+
+Early morning and on cue at any time (when your baby is hungry)\n
+Breastfeeding\n
+Morning\n
+Iron-fortified infant cereal\n
+Mashed strawberries or other soft fruit\n
+Snack\n
+Whole grain toast, cut into small pieces or strips\n
+Midday\n
+Breastfeeding\n
+
+Naan bread, cut into strips, spread thinly with hummus\n
+Grated carrots\n
+Cooked green beans, chopped\n
+Diced mango\n
+Breastfeeding or homogenized cow milk (3.25% M.F.)\n
+Snack\n
+Cottage cheese\n
+Unsweetened stewed prunes, pureed\n
+Supper\n
+Lentil pilaf (mixed dish):\n
+Whole wheat couscous\n
+Cooked lentils\n
+Cooked, diced, zucchini\n
+Diced tomatoes\n
+Chopped, cooked spinach\n
+Fruit cocktail in juice\n
+Breastfeeding or homogenized cow milk (3.25% M.F.)\n
+Snack\n
+Homemade, whole grain muffin\n
+Canned pears, in juice\n
+Breastfeeding or homogenized cow milk (3.25% M.F.)\n
+"
+
+        />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:src="@drawable/b"
+        />
+
+
+</RelativeLayout>
+    </ScrollView>
